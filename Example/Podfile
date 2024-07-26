@@ -1,0 +1,6 @@
+use_frameworks!
+target 'vnpay_sdk_Tests' do
+  pod 'vnpay_sdk', :path => '../'
+  
+  
+end
