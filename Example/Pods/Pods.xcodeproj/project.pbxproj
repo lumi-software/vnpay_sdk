@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A30BF5CB983391DF5C5F2BEADA5A161E /* vnpay_sdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A920F70CB44B6020C22AFD9C37703E9 /* Build configuration list for PBXAggregateTarget "vnpay_sdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1E13C4A2187DEEA6D0CDE852E80D1985 /* PBXTargetDependency */,
+			);
+			name = vnpay_sdk;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		78AE59032CECFC1A13C39BDB1160563D /* ic_back.imageset in Resources */ = {isa = PBXBuildFile; fileRef = EEA55C61E45A12DA8739307BAFA29E04 /* ic_back.imageset */; };
+		A436294FBA81D5755ABC0B473E2B6775 /* Pods-vnpay_sdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D578A7AE2A5B76AF42CF116207D7473F /* Pods-vnpay_sdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F653F92358527C9DCD332EE56045A073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FB122684212BB7959CA4447BC6E212E5 /* Pods-vnpay_sdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280B8B653A7AB97A1CAFD2919CD91D87 /* Pods-vnpay_sdk_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266B38BD469033AC19E25C07F2058AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB14D1989A4C1874565109A099ED945;
+			remoteInfo = "vnpay_sdk-vnpay_sdk";
+		};
+		56254FE5CA3E889EFE69189E749A42CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30BF5CB983391DF5C5F2BEADA5A161E;
+			remoteInfo = vnpay_sdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0E9DBED6B72F8A8E80871FF606651A /* Pods-vnpay_sdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vnpay_sdk_Tests.modulemap"; sourceTree = "<group>"; };
+		0D06E3515DDAE0DDDC8BBCD04D054C2E /* ResourceBundle-vnpay_sdk-vnpay_sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-vnpay_sdk-vnpay_sdk-Info.plist"; sourceTree = "<group>"; };
+		280B8B653A7AB97A1CAFD2919CD91D87 /* Pods-vnpay_sdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vnpay_sdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		355E2818D6C05128A35EF703AE22284B /* Pods-vnpay_sdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vnpay_sdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		374DC98F1D12E75254CC02C85F035649 /* ObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ObjectiveC-Bridging-Header.h"; path = "Classes/ObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		4E8C8C56177995A1BB556A5CAC11FC10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51A6123553976B19A7C1699D3C88FB45 /* vnpay_sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vnpay_sdk.release.xcconfig; sourceTree = "<group>"; };
+		693417F7FB0D4F1EC38A6F4C3B5A9248 /* vnpay_sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vnpay_sdk.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8ADE315299C4A7991C2ACF47B806150A /* Pods-vnpay_sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vnpay_sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAE4A73C14FB6B1E31BD547D44C9B6D /* Pods-vnpay_sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vnpay_sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9406DC28673743A70B066721D71FD71B /* vnpay_sdk-vnpay_sdk */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "vnpay_sdk-vnpay_sdk"; path = vnpay_sdk.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		987C1E2319EE8D82FB2081AD82D106A1 /* Pods-vnpay_sdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vnpay_sdk_Tests-resources.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A149AC63160AE8EFA73B6B4A15CB2F2E /* Pods-vnpay_sdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-vnpay_sdk_Tests"; path = Pods_vnpay_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EA6469FEA94ADE074416336BC0380C /* CallAppSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallAppSDK.framework; path = Frameworks/CallAppSDK.framework; sourceTree = "<group>"; };
+		AEC34730CE14FF7F008F6EB75344993A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF96DD70F4A89474E4761D289A0F1D36 /* Pods-vnpay_sdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vnpay_sdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B80EC793E6950F9F6BBD61D2517B5A9F /* vnpay_sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = vnpay_sdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D578A7AE2A5B76AF42CF116207D7473F /* Pods-vnpay_sdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vnpay_sdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E240A1B9199B626B8255FDF3DB8F1866 /* Pods-vnpay_sdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vnpay_sdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		EEA55C61E45A12DA8739307BAFA29E04 /* ic_back.imageset */ = {isa = PBXFileReference; includeInIndex = 1; name = ic_back.imageset; path = Assets/ic_back.imageset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C85928C9F3A1A0CA59102A6A9A84365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7172B6240E1C5CE67F358457C5032923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F653F92358527C9DCD332EE56045A073 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073EEBE11595CEA85FA3EEEA964D65C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D74BD7FB9DA5702003BA998CEC275601 /* vnpay_sdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		08F4F814093687CBB656F3A9D918C2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A149AC63160AE8EFA73B6B4A15CB2F2E /* Pods-vnpay_sdk_Tests */,
+				9406DC28673743A70B066721D71FD71B /* vnpay_sdk-vnpay_sdk */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286356883AC396D6CEE08EAD6EB07081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA6469FEA94ADE074416336BC0380C /* CallAppSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C7BD8127E4C0A00472FF13421AC559E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AEC34730CE14FF7F008F6EB75344993A /* LICENSE */,
+				4E8C8C56177995A1BB556A5CAC11FC10 /* README.md */,
+				B80EC793E6950F9F6BBD61D2517B5A9F /* vnpay_sdk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		93885DE053DBD811BA376F25E8EBB59D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B513F0153244E84870BCEAA6932993D7 /* Pods-vnpay_sdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95EB1A72DAF885A1117C2790E2EB912B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D06E3515DDAE0DDDC8BBCD04D054C2E /* ResourceBundle-vnpay_sdk-vnpay_sdk-Info.plist */,
+				693417F7FB0D4F1EC38A6F4C3B5A9248 /* vnpay_sdk.debug.xcconfig */,
+				51A6123553976B19A7C1699D3C88FB45 /* vnpay_sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/vnpay_sdk";
+			sourceTree = "<group>";
+		};
+		B513F0153244E84870BCEAA6932993D7 /* Pods-vnpay_sdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E9DBED6B72F8A8E80871FF606651A /* Pods-vnpay_sdk_Tests.modulemap */,
+				AF96DD70F4A89474E4761D289A0F1D36 /* Pods-vnpay_sdk_Tests-acknowledgements.markdown */,
+				355E2818D6C05128A35EF703AE22284B /* Pods-vnpay_sdk_Tests-acknowledgements.plist */,
+				280B8B653A7AB97A1CAFD2919CD91D87 /* Pods-vnpay_sdk_Tests-dummy.m */,
+				E240A1B9199B626B8255FDF3DB8F1866 /* Pods-vnpay_sdk_Tests-Info.plist */,
+				987C1E2319EE8D82FB2081AD82D106A1 /* Pods-vnpay_sdk_Tests-resources.sh */,
+				D578A7AE2A5B76AF42CF116207D7473F /* Pods-vnpay_sdk_Tests-umbrella.h */,
+				8ADE315299C4A7991C2ACF47B806150A /* Pods-vnpay_sdk_Tests.debug.xcconfig */,
+				8CAE4A73C14FB6B1E31BD547D44C9B6D /* Pods-vnpay_sdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-vnpay_sdk_Tests";
+			path = "Target Support Files/Pods-vnpay_sdk_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				073EEBE11595CEA85FA3EEEA964D65C4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08F4F814093687CBB656F3A9D918C2A8 /* Products */,
+				93885DE053DBD811BA376F25E8EBB59D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74BD7FB9DA5702003BA998CEC275601 /* vnpay_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				EEA55C61E45A12DA8739307BAFA29E04 /* ic_back.imageset */,
+				374DC98F1D12E75254CC02C85F035649 /* ObjectiveC-Bridging-Header.h */,
+				286356883AC396D6CEE08EAD6EB07081 /* Frameworks */,
+				7C7BD8127E4C0A00472FF13421AC559E /* Pod */,
+				95EB1A72DAF885A1117C2790E2EB912B /* Support Files */,
+			);
+			name = vnpay_sdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		306EBBB269F1481CF0FA56C7A482DD61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436294FBA81D5755ABC0B473E2B6775 /* Pods-vnpay_sdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6AB14D1989A4C1874565109A099ED945 /* vnpay_sdk-vnpay_sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75B4107F7D57683C1ADC0080920B8C8 /* Build configuration list for PBXNativeTarget "vnpay_sdk-vnpay_sdk" */;
+			buildPhases = (
+				E9DF1611419AA358B8E4BE1EEF5AF8DD /* Sources */,
+				0C85928C9F3A1A0CA59102A6A9A84365 /* Frameworks */,
+				25E08A071CA9F011DEFD77D2D8637B2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vnpay_sdk-vnpay_sdk";
+			productName = vnpay_sdk;
+			productReference = 9406DC28673743A70B066721D71FD71B /* vnpay_sdk-vnpay_sdk */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ABF1FBAE0A42F5C697E5B5EF680238E6 /* Pods-vnpay_sdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEE68D878B9DF4A6955F04A3079DD17 /* Build configuration list for PBXNativeTarget "Pods-vnpay_sdk_Tests" */;
+			buildPhases = (
+				306EBBB269F1481CF0FA56C7A482DD61 /* Headers */,
+				62D8943E30A0B8D7967DC7CE74A767F5 /* Sources */,
+				7172B6240E1C5CE67F358457C5032923 /* Frameworks */,
+				896A441669090D74F7F102FA2BF719AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B3B9975B62171E1B9ADBCA19163169 /* PBXTargetDependency */,
+			);
+			name = "Pods-vnpay_sdk_Tests";
+			productName = Pods_vnpay_sdk_Tests;
+			productReference = A149AC63160AE8EFA73B6B4A15CB2F2E /* Pods-vnpay_sdk_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 08F4F814093687CBB656F3A9D918C2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF1FBAE0A42F5C697E5B5EF680238E6 /* Pods-vnpay_sdk_Tests */,
+				A30BF5CB983391DF5C5F2BEADA5A161E /* vnpay_sdk */,
+				6AB14D1989A4C1874565109A099ED945 /* vnpay_sdk-vnpay_sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E08A071CA9F011DEFD77D2D8637B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78AE59032CECFC1A13C39BDB1160563D /* ic_back.imageset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896A441669090D74F7F102FA2BF719AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D8943E30A0B8D7967DC7CE74A767F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB122684212BB7959CA4447BC6E212E5 /* Pods-vnpay_sdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DF1611419AA358B8E4BE1EEF5AF8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B3B9975B62171E1B9ADBCA19163169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = vnpay_sdk;
+			target = A30BF5CB983391DF5C5F2BEADA5A161E /* vnpay_sdk */;
+			targetProxy = 56254FE5CA3E889EFE69189E749A42CA /* PBXContainerItemProxy */;
+		};
+		1E13C4A2187DEEA6D0CDE852E80D1985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "vnpay_sdk-vnpay_sdk";
+			target = 6AB14D1989A4C1874565109A099ED945 /* vnpay_sdk-vnpay_sdk */;
+			targetProxy = 266B38BD469033AC19E25C07F2058AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C527480BD326C5000A266ED3F9F9AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A6123553976B19A7C1699D3C88FB45 /* vnpay_sdk.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/vnpay_sdk";
+				IBSC_MODULE = vnpay_sdk;
+				INFOPLIST_FILE = "Target Support Files/vnpay_sdk/ResourceBundle-vnpay_sdk-vnpay_sdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = vnpay_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8FA37852AE43DE2F03179B3AD5DDCAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693417F7FB0D4F1EC38A6F4C3B5A9248 /* vnpay_sdk.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/vnpay_sdk";
+				IBSC_MODULE = vnpay_sdk;
+				INFOPLIST_FILE = "Target Support Files/vnpay_sdk/ResourceBundle-vnpay_sdk-vnpay_sdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = vnpay_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9E34211B480A58DF9BBC6F1E563D4117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADE315299C4A7991C2ACF47B806150A /* Pods-vnpay_sdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-vnpay_sdk_Tests/Pods-vnpay_sdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vnpay_sdk_Tests/Pods-vnpay_sdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE95F6B24F5359F89D783AB2F22271C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAE4A73C14FB6B1E31BD547D44C9B6D /* Pods-vnpay_sdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-vnpay_sdk_Tests/Pods-vnpay_sdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vnpay_sdk_Tests/Pods-vnpay_sdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFD8C0EF0458F27780C0BB4247B4749B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693417F7FB0D4F1EC38A6F4C3B5A9248 /* vnpay_sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF559D9D4EA6A07FD552300695D72E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A6123553976B19A7C1699D3C88FB45 /* vnpay_sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A920F70CB44B6020C22AFD9C37703E9 /* Build configuration list for PBXAggregateTarget "vnpay_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD8C0EF0458F27780C0BB4247B4749B /* Debug */,
+				AFF559D9D4EA6A07FD552300695D72E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEE68D878B9DF4A6955F04A3079DD17 /* Build configuration list for PBXNativeTarget "Pods-vnpay_sdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E34211B480A58DF9BBC6F1E563D4117 /* Debug */,
+				AE95F6B24F5359F89D783AB2F22271C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75B4107F7D57683C1ADC0080920B8C8 /* Build configuration list for PBXNativeTarget "vnpay_sdk-vnpay_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA37852AE43DE2F03179B3AD5DDCAF0 /* Debug */,
+				6C527480BD326C5000A266ED3F9F9AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

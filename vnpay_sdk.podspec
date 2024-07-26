@@ -1,42 +1,28 @@
-#
-# Be sure to run `pod lib lint vnpay_sdk.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'vnpay_sdk'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of vnpay_sdk.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'a plugin project for vnpay.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+vnpay_sdk is a plugin project for vnpay. It's a static framework. It's help you integrate vnpay into your project.
                        DESC
 
-  s.homepage         = 'https://github.com/32028055/vnpay_sdk'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/lumi-software/vnpay_sdk.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '32028055' => 'canary020990@gmail.com' }
-  s.source           = { :git => 'https://github.com/32028055/vnpay_sdk.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Lumi Viet Nam' => 'nghinv@lumi.vn' }
+  s.source           = { :git => 'https://github.com/lumi-software/vnpay_sdk.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'vnpay_sdk/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'vnpay_sdk' => ['vnpay_sdk/Assets/*.png']
-  # }
+  s.source_files = 'Classes/**/*'
+  s.public_header_files = 'Classes/**/*.h'
+  s.vendored_frameworks = 'Frameworks/CallAppSDK.framework'
+  s.resource_bundles = {
+    'vnpay_sdk' => ['Assets/*.png', 'Assets/*.imageset']
+  }
+  s.resources = 'Assets/*.png', 'Assets/*.imageset'
+  s.static_framework = true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end

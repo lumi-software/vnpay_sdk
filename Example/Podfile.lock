@@ -1,0 +1,16 @@
+PODS:
+  - vnpay_sdk (0.1.0)
+
+DEPENDENCIES:
+  - vnpay_sdk (from `../`)
+
+EXTERNAL SOURCES:
+  vnpay_sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  vnpay_sdk: 8a1684a93e0b4aae4ff24cd996dc02323bc9c3c4
+
+PODFILE CHECKSUM: a575295ce86508acd0430c3ca3e88705f0373993
+
+COCOAPODS: 1.15.2

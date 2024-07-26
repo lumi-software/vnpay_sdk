@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'vnpay_sdk'
 ```
 
-## Author
-
-32028055, canary020990@gmail.com
-
 ## License
 
 vnpay_sdk is available under the MIT license. See the LICENSE file for more info.
